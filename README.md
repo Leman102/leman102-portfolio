@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+Deployed Portfolio [here](https://leman102.github.io/leman102-portfolio/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
