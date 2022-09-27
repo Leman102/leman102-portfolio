@@ -1,7 +1,7 @@
 {
   "name": "leman102-portfolio",
-  "version": "0.2.2",
-  "homepage": "http://Leman102.github.io/leman102-portfolio",
+  "version": "0.2.3",
+  "homepage": "http://Leman102.github.io/leman102--portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/user-event": "^12.8.3",
