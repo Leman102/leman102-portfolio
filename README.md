@@ -13,7 +13,6 @@ Thank you so much!
 - HTML
 - CSS
 - ES6
-- jQuery
 - Node
 - REACT
 ## License
