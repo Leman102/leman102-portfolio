@@ -33,10 +33,11 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background-image: url("./assets/background/matrix.jpg");
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
   color: var(--light);
-  font-family: 'Poiret One', cursive;
-
 }
 
 h1,
@@ -132,14 +133,13 @@ button[disabled] {
 
 img {
   max-width: 100%;
-  
 }
 
 .intro-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   text-align: justify;
 }
@@ -272,9 +272,17 @@ textarea {
   text-align: center;
 }
 
+#portfolio-container{
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: 200px;
   margin-bottom: 50px;
   cursor: pointer;
 }
@@ -319,16 +327,19 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: #c9a959;
 	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+
 }
 
 .navActive {
   color: var(--secondary);
+}
+
+.resume {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
 }
 
 footer {

@@ -5,12 +5,13 @@ import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 import About from './components/About';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
-  const [aboutSelected,setAboutSelected] = useState(false)
+  const [aboutSelected,setAboutSelected] = useState(true)
   const [resumeSelected,setResumeSelected] = useState(false)
   const [portfolioSelected,setPortfolioSelected] = useState(false)
 
@@ -32,6 +33,12 @@ function App() {
         ):(
           <>
 
+          </>
+        )}
+        {portfolioSelected ? (
+          <Portfolio></Portfolio>
+        ):(
+          <>
           </>
         )}
         {contactSelected ? (

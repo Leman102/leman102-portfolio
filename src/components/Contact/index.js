@@ -30,9 +30,13 @@ function ContactForm() {
     }
 
     function handleSubmit(e) {
-        e.preventDefault();
+        
         console.log(formState)
-          
+        e.preventDefault();
+
+        e.target.name.value = ""
+        e.target.email.value = ""
+        e.target.message.value = ""
     }
 
     return (
