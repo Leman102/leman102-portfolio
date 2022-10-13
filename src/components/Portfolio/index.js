@@ -7,6 +7,11 @@ import { FaGithubSquare, FaAppStore } from 'react-icons/fa'
 function Portfolio() {
     const [projects] = useState([
         {
+            name: "SecondChance",
+            repo: "https://github.com/Leman102/second-chance",
+            deployedLink: "https://second-chance-e-commerce.herokuapp.com/"
+        },
+        {
             name: "Pet-hub",
             repo: "https://github.com/Leman102/pet-hub",
             deployedLink: "https://pets-projects.herokuapp.com/"
@@ -25,11 +30,6 @@ function Portfolio() {
             name: "Weather-App",
             repo: "https://github.com/Leman102/weather-dashboard",
             deployedLink: "https://leman102.github.io/weather-dashboard/"
-        },
-        {
-            name: "Pizza-Hunt",
-            repo: "https://github.com/Leman102/pizza-hunt",
-            deployedLink: "https://pizza-hunt-leman.herokuapp.com/"
         },
         {
             name: "run-buddy",
